@@ -12,6 +12,7 @@ c++ Snake Game made with SDL2, this project compiles all modules learned throgho
 
 
 # Features
+- A Sneak game
 - Navigation through 4 Screens ( Onboarding, Menu, Leaderboard, Game )
 - Accepts user input to write a username
 - Leaderboard stored locally with the 10 best scores
