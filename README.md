@@ -21,6 +21,27 @@ c++ Snake Game made with SDL2, this project compiles all modules learned throgho
 ## SDL2_ttf
 When rendering texts on the screen, i had some problem with the SDL2_ttf, the CMakeLists couldnt find the file location, had to use a third party `FindSDL2_ttf.cmake` that i found.
 
+## Rubric
+- Loops, Funcitons, I/O
+  - Reading data from file and writing data on file (leaderboard_manager.cpp)
+  - Code organized into functions / classes
+  - The project accepts user input and procces the input (controller.cpp)
+
+- OOP
+  - One or more classes added to the project
+  - Class constructors with initialization lists
+  - Classes abstracts implementation details from their interfaces
+
+- Memory management
+  - Use of references (controller.cpp)
+  - Use of destructors (renderer.cpp)
+  - Use of move semantics (game_manager.cpp)
+  - Use of smart pointers (controller.h)
+
+- Concurrency
+  - The project uses multithreading (game_manager.cpp)
+  - Promise and future (game_manager.cpp/leaderboard_manager.cpp)
+
 ## Dependencies for Running Locally
 * cmake >= 3.7
   * All OSes: [click here for installation instructions](https://cmake.org/install/)
