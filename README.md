@@ -6,7 +6,10 @@
 
 c++ Snake Game made with SDL2, this project compiles all modules learned throghout the `c++ nanodegree`, OOP, Memory management and Concurrency.
 
-<img src="./docs/snake_game.gif"/>
+<p align='center'>
+  <img src="./docs/snake_game.gif"/>
+</p>
+
 
 # Features
 - Navigation through 4 Screens ( Onboarding, Menu, Leaderboard, Game )
@@ -26,10 +29,12 @@ When rendering texts on the screen, i had some problem with the SDL2_ttf, the CM
   * Windows: [Click here for installation instructions](http://gnuwin32.sourceforge.net/packages/make.htm)
 * SDL2 >= 2.0
   * All installation instructions can be found [here](https://wiki.libsdl.org/SDL2/Installation)
-  >On Mac you can run \
-  brew install SDL2\
-  brew install SDL2_image\
+  >On Mac you can run
+  ```
+  brew install SDL2
+  brew install SDL2_image
   brew install SDL2_ttf
+  ```
 
   >Note that for Linux, an `apt` or `apt-get` installation is preferred to building from source. 
 * gcc/g++ >= 5.4
